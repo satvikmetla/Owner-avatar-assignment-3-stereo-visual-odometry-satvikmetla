@@ -1,0 +1,6 @@
+images: data_odometry_gray # Top-level folder containing grayscale images
+poses: data_odometry_poses # Top-level folder containing poses
+sequence: 00 # Sequence number to select dataset (Can be changed to 01->10)
+frame_start: 0 # ID of the starting frame. (Will be changed during grading)
+frame_end: 100 # ID of the ending frame. Full SVO occurs between [frame_start, frame_end] (Will be changed during grading)
+csv_path: output.csv # CSV name
